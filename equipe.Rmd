@@ -12,8 +12,8 @@ csl: vancouver.csl
 
 output:
   html_document:
-    toc: true
-    toc_float: true
+    toc: false
+    toc_float: false
     css:
       - ./CSS/logo-above-toc
       - ./CSS/main-color.css

@@ -15,15 +15,6 @@ navbar:
     - text: "Equipe"
       icon: "fa-user-group fa-lg"
       href: [equipe.html]
-      menu:
-        - text: "Equipe"
-          href: [equipe.html]
-        - text: "Coordenação"
-          href: [equipe.html#coordenacao]
-        - text: "Nutricionistas"
-          href: [equipe.html#nutricionistas]
-        - text: "Estagiários"
-          href: [equipe.html#estagiarios]
     - text: "Ambulatórios"
       icon: "fa-house-medical fa-lg"
       href: [ambulatorios.html]
@@ -44,7 +35,7 @@ navbar:
       href: [extensao.html]
   right:
     - text: ""
-      icon: "fa-map-pin fa-lg"
+      icon: "fa-location-dot fa-lg"
       href: [local.html]
     - text: ""
       icon: "fa-instagram fa-lg"
