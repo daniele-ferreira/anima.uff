@@ -1,7 +1,7 @@
 ---
 title: ANIMA
 author:
-  - name: Apoio Nutricional e Integrativo à Maternidade
+  - name: Apoio Nutricional e Integrativo <br> à Maternidade
   
 geometry: "top=3cm,left=3cm,right=2cm,bottom=2cm"
 link-citations: yes
@@ -39,11 +39,11 @@ Ao promover a interação entre o conhecimento científico e o saber popular nas
 
 <br>
 
-### **Linhas de Pesquisa**
+## **Linhas de Pesquisa**
 
 <br>
 
-## **1. Avaliação nutricional de gestantes de alto risco**:
+### **1. Avaliação nutricional de gestantes de alto risco**:
 
 <br>
 Essa linha de pesquisa busca compreender e aprimorar a saúde materno-fetal em situações onde há maior probabilidade de complicações durante a gestação.  
@@ -100,8 +100,9 @@ Como produto técnico das pesquisas desenvolvidas nessa linha, foi elaborado um 
 <button type="button" class="btn btn-primary">[App ANIMA](https://sciencer.shinyapps.io/Anima/)</button>
 </center>
 
+<br>
 
-## **2. Investigação e apoio ao aleitamento materno**:
+### **2. Investigação e apoio ao aleitamento materno**:
 
 <br>
 

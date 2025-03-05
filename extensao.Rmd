@@ -1,7 +1,7 @@
 ---
 title: ANIMA
 author:
-  - name: Apoio Nutricional e Integrativo à Maternidade
+  - name: Apoio Nutricional e Integrativo <br> à Maternidade
   
 geometry: "top=3cm,left=3cm,right=2cm,bottom=2cm"
 link-citations: yes
@@ -39,7 +39,7 @@ Dentro da perspectiva das ações de extensão, a proposta deste projeto valoriz
 
 <br>
 
-Paralelamente, de modo a adquirir maior efetividade, as ações estarão vinculadas ao processo de formação dos alunos de graduação em nutrição e de geração de conhecimento, por meio do desenvolvimento de pesquisas no âmbito da graduação e pós-graduação. Tal envolvimento visa possibilitar um maior impacto na formação dos estudantes pela ampliação da visão teórica que adquirem em sala de aula, a partir do contato direto com as questões sociais apresentadas pelas famílias, reafirmando também, o compromisso ético e solidário da Universidade Pública.
+Paralelamente, de modo a adquirir maior efetividade, as ações estão vinculadas ao processo de formação dos alunos de graduação em nutrição e de geração de conhecimento, por meio do desenvolvimento de pesquisas no âmbito da graduação e pós-graduação. Tal envolvimento visa possibilitar um maior impacto na formação dos estudantes pela ampliação da visão teórica que adquirem em sala de aula, a partir do contato direto com as questões sociais apresentadas pelas famílias, reafirmando também, o compromisso ético e solidário da Universidade Pública.
 
 <br>
 

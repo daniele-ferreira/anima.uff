@@ -1,7 +1,7 @@
 ---
 title: ANIMA
 author:
-  - name: Apoio Nutricional e Integrativo à Maternidade
+  - name: Apoio Nutricional e Integrativo <br> à Maternidade
   
 geometry: "top=3cm,left=3cm,right=2cm,bottom=2cm"
 link-citations: yes
@@ -55,7 +55,7 @@ Ao envolver-se nas atividades do ANIMA, os estudantes aprimoram habilidades inte
 
 **3. Formação Continuada e Melhoria das Práticas Educativas**
 
-O ANIMA também contribue para a formação contínua de professores e profissionais de saúde, proporcionando espaços para discussões sobre temas relevantes à docência e à prática profissional. Essa interação entre teoria e prática resulta em melhorias no processo educativo e assistencial.
+O ANIMA também contribui para a formação contínua de professores e profissionais de saúde, proporcionando espaços para discussões sobre temas relevantes à docência e à prática profissional. Essa interação entre teoria e prática resulta em melhorias no processo educativo e assistencial.
 
 <br>
 
