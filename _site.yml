@@ -43,16 +43,16 @@ navbar:
       icon: "fa-users fa-lg"
       href: [extensao.html]
   right:
-    - text: "Localização"
+    - text: ""
       icon: "fa-map-pin fa-lg"
       href: [local.html]
-    - text: "Rede social"
+    - text: ""
       icon: "fa-instagram fa-lg"
       href: [https://www.instagram.com/anima.uff]
-    - text: "E-mail"
+    - text: ""
       icon: "fa-envelope fa-lg"
       href: [mailto:anima.cmm@id.uff.br]
-    - text: "WhatsApp"
+    - text: ""
       icon: "fa-whatsapp fa-lg"
       href: [https://wa.me/5521973020566]
 

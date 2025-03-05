@@ -43,7 +43,7 @@ Ao promover a interação entre o conhecimento científico e o saber popular nas
 
 <br>
 
-##**1. Avaliação nutricional de gestantes de alto risco**:
+## **1. Avaliação nutricional de gestantes de alto risco**:
 
 <br>
 Essa linha de pesquisa busca compreender e aprimorar a saúde materno-fetal em situações onde há maior probabilidade de complicações durante a gestação.  
@@ -84,7 +84,7 @@ Essa linha de pesquisa busca compreender e aprimorar a saúde materno-fetal em s
 
 - Avaliação do impacto de programas de educação nutricional nessa população.
 
-<br
+<br>
 
 **Tecnologias e métodos inovadores de avaliação nutricional:**
 
@@ -101,7 +101,7 @@ Como produto técnico das pesquisas desenvolvidas nessa linha, foi elaborado um 
 </center>
 
 
-##**2. Investigação e apoio ao aleitamento materno**:
+## **2. Investigação e apoio ao aleitamento materno**:
 
 <br>
 
@@ -122,6 +122,4 @@ Essa linha de pesquisa tem como foco central a promoção, proteção e apoio à
 <br>
 
 **Políticas e Iniciativas Governamentais**: Estudo das políticas públicas existentes que visam apoiar a amamentação, como o Programa Nacional de Alimentação Escolar (PNAE).
-
-
 
