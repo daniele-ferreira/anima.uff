@@ -1,0 +1,78 @@
+---
+title: ANIMA
+author:
+  - name: Apoio Nutricional e Integrativo à Maternidade
+  
+geometry: "top=3cm,left=3cm,right=2cm,bottom=2cm"
+link-citations: yes
+always_allow_html: true
+documentclass: book
+papersize: a4
+csl: vancouver.csl
+
+output:
+  html_document:
+    toc: false
+    toc_float: false
+    css:
+      - ./CSS/logo-above-toc
+      - ./CSS/main-color.css
+      - ./CSS/narrow-margins.css
+      - ./CSS/responsive.css
+
+bibliography: references.bib
+---
+
+```{r, echo = FALSE}
+htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")), 
+               alt = 'anima', 
+               style = 'position:absolute; top:50px; right:0px; padding:10px; width:150px;')
+```
+
+<br>
+
+## **Extensão**
+
+<br>
+
+Dentro da perspectiva das ações de extensão, a proposta deste projeto valoriza a interação dialógica por meio da troca de saberes entre o conhecimento científico e popular a partir da escuta qualificada das questões relacionadas à saúde da mãe e do bebê e da proposição de ações promotoras da alimentação saudável a partir da realidade econômica, social e cultural das famílias atendidas, possibilitando assim, um impacto social baseado nos interesses e necessidades da população.
+
+<br>
+
+Paralelamente, de modo a adquirir maior efetividade, as ações estarão vinculadas ao processo de formação dos alunos de graduação em nutrição e de geração de conhecimento, por meio do desenvolvimento de pesquisas no âmbito da graduação e pós-graduação. Tal envolvimento visa possibilitar um maior impacto na formação dos estudantes pela ampliação da visão teórica que adquirem em sala de aula, a partir do contato direto com as questões sociais apresentadas pelas famílias, reafirmando também, o compromisso ético e solidário da Universidade Pública.
+
+<br>
+
+**ATIVIDADES PROPOSTAS**
+
+<br>
+
+**1.	Atendimento Nutricional Personalizado**
+
+Realizar consultas nutricionais individualizadas com gestantes e lactantes, considerando suas necessidades específicas, condições de saúde e contexto socioeconômico.
+
+<br>
+
+**2.	Educação Nutricional e Saúde Integrativa**
+
+Desenvolver oficinas educativas sobre alimentação saudável, amamentação e introdução alimentar, utilizando materiais lúdicos.
+
+<br>
+
+**3.	Formação e Capacitação de Estudantes**
+
+Envolver alunos da graduação e pós-graduação em Nutrição em atividades práticas e pesquisas aplicadas, promovendo uma formação interdisciplinar e humanizada.
+
+<br>
+
+**4.	Produção de Conhecimento Científico**
+
+Desenvolver estudos acadêmicos relacionados à nutrição materno-infantil, com foco nos impactos da extensão universitária na saúde da comunidade e formação dos estudantes.
+
+<br>
+
+**5.	Monitoramento e Avaliação das Ações**
+
+Criar um sistema de acompanhamento contínuo para avaliar os resultados e impactos do projeto, tanto na comunidade atendida quanto na formação dos estudantes.
+
+

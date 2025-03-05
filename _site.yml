@@ -1,0 +1,77 @@
+---
+title: ANIMA
+date: '`r format(Sys.Date())`'
+author:
+  - name: Apoio Nutricional e Integrativo à Maternidade
+  - name: Daniele Mendonça Ferreira, MSc, DSc
+creative_commons: CC BY-NC
+output_dir: docs
+search: true
+navbar:
+  left:
+    - text: ""
+      icon: "fa-home fa-lg"
+      href: [index.html]
+    - text: "Equipe"
+      icon: "fa-user-group fa-lg"
+      href: [equipe.html]
+      menu:
+        - text: "Equipe"
+          href: [equipe.html]
+        - text: "Coordenação"
+          href: [equipe.html#coordenacao]
+        - text: "Nutricionistas"
+          href: [equipe.html#nutricionistas]
+        - text: "Estagiários"
+          href: [equipe.html#estagiarios]
+    - text: "Ambulatórios"
+      icon: "fa-house-medical fa-lg"
+      href: [ambulatorios.html]
+    - text: "Sala de Apoio à Amamentação"
+      icon: "fa-person-breastfeeding fa-lg"
+      href: [sala.html]
+    - text: "Materiais de leitura"
+      icon: "fa-book-medical fa-lg"
+      href: [materiais.html]
+    - text: "Ensino"
+      icon: "fa-chalkboard-user fa-lg"
+      href: [ensino.html]
+    - text: "Pesquisa"
+      icon: "fa-file-pen fa-lg"
+      href: [pesquisa.html]
+    - text: "Extensão"
+      icon: "fa-users fa-lg"
+      href: [extensao.html]
+  right:
+    - text: "Localização"
+      icon: "fa-map-pin fa-lg"
+      href: [local.html]
+    - text: "Rede social"
+      icon: "fa-instagram fa-lg"
+      href: [https://www.instagram.com/anima.uff]
+    - text: "E-mail"
+      icon: "fa-envelope fa-lg"
+      href: [mailto:anima.cmm@id.uff.br]
+    - text: "WhatsApp"
+      icon: "fa-whatsapp fa-lg"
+      href: [https://wa.me/5521973020566]
+
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    css:
+      - style.css
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    edit: null
+    sharing:
+      facebook: yes
+      twitter: yes
+      google: yes
+      all:
+        - facebook
+        - twitter
+        - google
+---

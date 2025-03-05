@@ -1,0 +1,73 @@
+---
+title: ANIMA
+author:
+  - name: Apoio Nutricional e Integrativo <br> à Maternidade
+  
+geometry: "top=3cm,left=3cm,right=2cm,bottom=2cm"
+link-citations: yes
+always_allow_html: true
+documentclass: book
+papersize: a4
+csl: vancouver.csl
+
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    css:
+      - ./CSS/logo-above-toc
+      - ./CSS/main-color.css
+      - ./CSS/narrow-margins.css
+      - ./CSS/responsive.css
+
+bibliography: references.bib
+---
+
+```{r, echo = FALSE}
+htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")), 
+               alt = 'anima', 
+               style = 'position:absolute; top:50px; right:0px; padding:10px; width:150px;')
+```
+
+<br>
+
+# **Equipe ANIMA**
+
+<br>
+
+<center>
+
+## **Coordenação** {#coordenacao}
+
+<br>
+
+<img src="imagens/daniele-ferreira.png" width="200px">
+
+**Professora Daniele Mendonça Ferreira**
+
+MSc, DSc
+
+[Email](mailto:daniele_ferreira@id.uff.br) | [Currículo Lattes](http://lattes.cnpq.br/6222513276436258)
+
+</center>
+
+## **Nutricionistas** {#nutricionistas}
+
+<br>
+
+<center>
+
+<img src="imagens/ana-beatriz.png" width="200px">
+
+**Professora Ana Beatriz Franco Sena Siqueira**
+
+MSc, DSc
+
+[Email](mailto:ab_franco@id.uff.br) | [Currículo Lattes](http://lattes.cnpq.br/6222513276436258)
+
+</center>
+
+## **Estagiários** {#estagiarios}
+
+<br>
+

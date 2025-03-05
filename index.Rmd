@@ -1,0 +1,50 @@
+---
+title: ANIMA
+author:
+  - name: Apoio Nutricional e Integrativo à Maternidade
+
+geometry: "top=3cm,left=3cm,right=2cm,bottom=2cm"
+link-citations: yes
+always_allow_html: true
+documentclass: book
+papersize: a4
+csl: vancouver.csl
+
+output:
+  html_document:
+    toc: false
+    toc_float: false
+    css:
+      - ./CSS/logo-above-toc
+      - ./CSS/main-color.css
+      - ./CSS/narrow-margins.css
+      - ./CSS/responsive.css
+
+bibliography: references.bib
+---
+
+```{r, echo = FALSE}
+htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")), 
+               alt = 'anima', 
+               style = 'position:absolute; top:50px; right:0px; padding:10px; width:150px;')
+```
+
+<br>
+
+# **Sobre o ANIMA**
+
+<br>
+
+O **ANIMA (Apoio Nutricional e Integrativo à Maternidade)** é um projeto interdisciplinar de ensino, pesquisa e extensão que visa promover a saúde e o bem-estar de gestantes, puérperas e seus bebês, por meio de cuidados nutricionais e práticas integrativas. O projeto nasce da compreensão de que a maternidade é um período de transformações profundas, que exige atenção especializada e apoio multidisciplinar para garantir a saúde física, emocional e social das mães e de suas famílias.  
+
+<br>
+
+Com base em evidências científicas e em uma abordagem humanizada, o ANIMA oferece acompanhamento nutricional, considerando as necessidades individuais de cada gestante ou lactante, contribuindo para a melhoria da qualidade de vida e o fortalecimento do vínculo materno-infantil. 
+
+<br>
+
+O ANIMA também se destaca por seu caráter educativo. Por meio de capacitações, reuniões científicas e práticas nos atendimentos, o projeto contribui para a formação dos alunos e dos profissionais de saúde que compõem a equipe dos ambulatórios. Esses estudantes têm a oportunidade de vivenciar práticas extensionistas e contribuir para a transformação social.  
+
+<br>
+
+Por meio de sua atuação, o Projeto ANIMA não apenas fortalece o cuidado com as mães e seus bebês, mas também se torna um espaço de aprendizado, troca e empoderamento, reforçando a importância de uma abordagem integral e humanizada na saúde.  

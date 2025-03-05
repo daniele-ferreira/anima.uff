@@ -1,0 +1,106 @@
+---
+title: ANIMA
+author:
+  - name: Apoio Nutricional e Integrativo à Maternidade
+  
+geometry: "top=3cm,left=3cm,right=2cm,bottom=2cm"
+link-citations: yes
+always_allow_html: true
+documentclass: book
+papersize: a4
+csl: vancouver.csl
+
+output:
+  html_document:
+    toc: false
+    toc_float: false
+    css:
+      - ./CSS/logo-above-toc
+      - ./CSS/main-color.css
+      - ./CSS/narrow-margins.css
+      - ./CSS/responsive.css
+
+bibliography: references.bib
+---
+
+```{r, echo = FALSE}
+htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")), 
+               alt = 'anima', 
+               style = 'position:absolute; top:50px; right:0px; padding:10px; width:150px;')
+```
+
+<br>
+
+## **Materiais de leitura** {.tabset .tabset-pills}
+
+<br>
+
+### Amamentação {.tabset .tabset-pills}
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:2px;border-width:0;color:black;background-color:black">
+
+#### Academy of Breastfeeding Medicine (ABM)
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:2px;border-width:0;color:black;background-color:black">
+
+```{r ABM, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', results = 'asis', fig.pos='H'}
+data <-
+  readxl::read_excel("xlsx/protocolos-abm.xlsx",
+             sheet = "ABM",
+             col_types = c("text"))
+
+Link <- matrix(NA, nrow = dim(data)[1])
+colnames(Link) <- "Link"
+# add hyperlinks
+for (i in 1:dim(data)[1]) {
+  if (!is.na(data[i, 2])) {
+    Link[i] <-
+      paste0('<a href="',
+             data[i, ncol(data)],
+             '" target="_blank"',
+             '>',
+             # fontawesome icon
+             fontawesome::fa("up-right-from-square"),
+             '</a>')
+  }
+}
+data <- cbind(data[,-ncol(data)], Link)
+
+# print tables
+source("Scripts/table-with-buttons.R", local = knitr::knit_global())
+create_dt(data, title = "Protocolos ABM", pageLength = 5)
+```
+
+<br>
+
+Fonte: [Academy of Breastfeeding Medicine (ABM)](https://www.bfmed.org/)
+
+#### Ministério da Saúde (MS) 
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:2px;border-width:0;color:black;background-color:black">
+
+Fonte: [Ministério da Saúde (MS)](https://www.gov.br/saude/pt-br)
+
+### Nutrição na Gestação e Lactação {.tabset .tabset-pills}
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:2px;border-width:0;color:black;background-color:black">
+
+<br>
+
+### Introdução Alimentar {.tabset .tabset-pills}
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:2px;border-width:0;color:black;background-color:black">
+
+<br>
+
+### Alergias Alimentares {.tabset .tabset-pills}
+
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:2px;border-width:0;color:black;background-color:black">
+
+<br>

@@ -1,0 +1,77 @@
+---
+title: ANIMA
+author:
+  - name: Apoio Nutricional e Integrativo à Maternidade
+  
+geometry: "top=3cm,left=3cm,right=2cm,bottom=2cm"
+link-citations: yes
+always_allow_html: true
+documentclass: book
+papersize: a4
+csl: vancouver.csl
+
+output:
+  html_document:
+    toc: false
+    toc_float: false
+    css:
+      - ./CSS/logo-above-toc
+      - ./CSS/main-color.css
+      - ./CSS/narrow-margins.css
+      - ./CSS/responsive.css
+
+bibliography: references.bib
+---
+
+```{r, echo = FALSE}
+htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")), 
+               alt = 'anima', 
+               style = 'position:absolute; top:50px; right:0px; padding:10px; width:150px;')
+```
+
+<br>
+
+## **Ensino**
+
+<br>
+
+O projeto ANIMA contribui para a formação integral dos estudantes, melhorando a qualidade do ensino e aproximando a universidade da sociedade. 
+
+A seguir, destacam-se as principais formas de contribuição do projeto para o ensino:
+
+<br>
+
+**1. Aplicação Prática do Conhecimento Teórico**
+
+As ações desenvolvidas pelo ANIMA permite que estudantes apliquem na prática os conhecimentos adquiridos em sala de aula, enfrentando desafios reais e desenvolvendo soluções inovadoras. Essa vivência prática é essencial para consolidar o aprendizado e desenvolver habilidades essenciais para a atuação profissional.
+
+<br>
+
+**2. Desenvolvimento de Competências e Habilidades**
+
+Ao envolver-se nas atividades do ANIMA, os estudantes aprimoram habilidades interpessoais, como comunicação, liderança e trabalho em equipe, além de competências técnicas específicas na área materno-infantil. Essas experiências ampliam a formação acadêmica e pessoal dos alunos.
+
+<br>
+
+**3. Formação Continuada e Melhoria das Práticas Educativas**
+
+O ANIMA também contribue para a formação contínua de professores e profissionais de saúde, proporcionando espaços para discussões sobre temas relevantes à docência e à prática profissional. Essa interação entre teoria e prática resulta em melhorias no processo educativo e assistencial.
+
+<br>
+
+**4. Integração entre Universidade e Comunidade**
+
+As ações extensionistas promovem a interação entre a universidade e a sociedade, permitindo que o conhecimento acadêmico seja compartilhado e aplicado em benefício da comunidade. Essa troca enriquece o ensino, tornando-o mais contextualizado e relevante às demandas sociais.
+
+<br>
+
+**5. Estímulo à Pesquisa e Inovação**
+
+A participação dos alunos no projeto tem incentivado a iniciação científica, estimulando os estudantes a desenvolverem pesquisas aplicadas que atendam às necessidades da comunidade. Essa prática fortalece a cultura de inovação e contribui para a produção de conhecimento relevante.
+
+<br>
+
+**6. Formação Cidadã e Responsabilidade Social**
+
+Ao participar das ações extensionistas, os estudantes desenvolvem uma consciência crítica sobre as questões sociais, políticas e econômicas, tornando-se profissionais mais comprometidos com a transformação social e a promoção da cidadania.
+

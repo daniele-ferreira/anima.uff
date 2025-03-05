@@ -1,0 +1,127 @@
+---
+title: ANIMA
+author:
+  - name: Apoio Nutricional e Integrativo à Maternidade
+  
+geometry: "top=3cm,left=3cm,right=2cm,bottom=2cm"
+link-citations: yes
+always_allow_html: true
+documentclass: book
+papersize: a4
+csl: vancouver.csl
+
+output:
+  html_document:
+    toc: false
+    toc_float: false
+    css:
+      - ./CSS/logo-above-toc
+      - ./CSS/main-color.css
+      - ./CSS/narrow-margins.css
+      - ./CSS/responsive.css
+
+bibliography: references.bib
+---
+
+```{r, echo = FALSE}
+htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")), 
+               alt = 'anima', 
+               style = 'position:absolute; top:50px; right:0px; padding:10px; width:150px;')
+```
+
+<br>
+
+## **Pesquisa**
+
+<br>
+
+Ao promover a interação entre o conhecimento científico e o saber popular nas ações extensionistas, o ANIMA vem investindo em linhas de investigação e soluções mais adequadas às realidades locais. A pesquisa é um dos pilares do projeto, que busca compreender as necessidades e demandas da população materno-infantil, a fim de propor intervenções que promovam a saúde e o bem-estar.
+
+<br>
+
+### **Linhas de Pesquisa**
+
+<br>
+
+##**1. Avaliação nutricional de gestantes de alto risco**:
+
+<br>
+Essa linha de pesquisa busca compreender e aprimorar a saúde materno-fetal em situações onde há maior probabilidade de complicações durante a gestação.  
+
+<br>
+
+**Principais Temáticas Abordadas:**
+
+<br>
+
+**Avaliação do estado nutricional de gestantes de alto risco:**
+
+- Investigação de deficiências ou excessos nutricionais (macro e micronutrientes) em gestantes com condições como diabetes gestacional, hipertensão, obesidade, desnutrição, anemia ou outras comorbidades.
+
+- Análise do impacto dessas condições no desenvolvimento fetal e na saúde materna.
+
+<br>
+
+**Metabolismo e necessidades nutricionais específicas:**
+
+- Estudo das alterações metabólicas em gestantes de alto risco e suas implicações nas recomendações nutricionais.
+
+- Avaliação de marcadores bioquímicos (como glicemia, perfil lipídico, níveis de vitaminas e minerais) e sua relação com desfechos gestacionais.
+
+<br>
+
+**Intervenções nutricionais personalizadas:**
+
+- Desenvolvimento e teste de protocolos nutricionais adaptados às necessidades específicas de gestantes de alto risco.
+
+- Análise da eficácia de suplementações (como ferro, ácido fólico, vitamina D) nesse grupo.
+
+<br>
+
+**Impacto psicossocial e comportamental:**
+
+- Investigação de fatores como acesso a alimentos, hábitos alimentares, insegurança alimentar e sua relação com o estado nutricional de gestantes de alto risco.
+
+- Avaliação do impacto de programas de educação nutricional nessa população.
+
+<br
+
+**Tecnologias e métodos inovadores de avaliação nutricional:**
+
+- Uso de ferramentas como bioimpedância e bodpod para avaliar o estado nutricional, calorímetro para estimar o metabolismo basal, e aplicativos móveis para acompanhamento nutricional.
+
+<br>
+
+Como produto técnico das pesquisas desenvolvidas nessa linha, foi elaborado um aplicativo para a avaliação do consumo alimentar e  do nível de atividade física de gestantes. Esse aplicativo pode ser acessado gratuitamente no link abaixo:
+
+<br>
+
+<center>
+<button type="button" class="btn btn-primary">[App ANIMA](https://sciencer.shinyapps.io/Anima/)</button>
+</center>
+
+
+##**2. Investigação e apoio ao aleitamento materno**:
+
+<br>
+
+Essa linha de pesquisa tem como foco central a promoção, proteção e apoio à amamentação, reconhecendo-a como uma prática essencial para a saúde e o desenvolvimento infantil. 
+
+<br>
+
+**Principais Temáticas Abordadas**
+
+<br>
+
+**Fatores que Influenciam o Desmame Precoce**: Análise dos fatores que contribuem para a interrupção precoce da amamentação, incluindo aspectos socioculturais, falta de apoio familiar e dificuldades no manejo da lactação. 
+
+<br>
+
+**Estratégias de Promoção e Apoio**: Discussão sobre as melhores práticas e estratégias para promover e apoiar o aleitamento materno, como a formação de grupos de apoio, campanhas educativas e a capacitação contínua de profissionais de saúde. 
+
+<br>
+
+**Políticas e Iniciativas Governamentais**: Estudo das políticas públicas existentes que visam apoiar a amamentação, como o Programa Nacional de Alimentação Escolar (PNAE).
+
+
+
