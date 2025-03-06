@@ -133,6 +133,7 @@ Nas consultas de acompanhamento, verificamos se as orientações estão sendo se
 ### **Consultoria em Amamentação**
 
 <br>
+
 <center>
 
 **Nutricionista responsável**
@@ -222,7 +223,7 @@ br>
 
 **Nutricionista responsável**
 
-*Professora Enilce de Oliveira Fonseca Sally**
+**Professora Enilce de Oliveira Fonseca Sally**
 
 MSc, DSc
 
@@ -287,7 +288,9 @@ Após a consulta inicial, é estabelecido um plano de acompanhamento regular par
 ### **Alergias Alimentares**
 
 <br>
+
 <center>
+
 **Nutricionista responsável**
 
 <img src="imagens/nathalia-ferreira.png" width="150px">
@@ -351,4 +354,3 @@ O seguimento regular é crucial para avaliar a eficácia do plano alimentar e re
 <center>
 <button type="button" class="btn btn-primary">[Marque sua consulta](https://minhaagendavirtual.com.br/agendamentos/incluir/animauff/33550475A)</button>
 </center>
-

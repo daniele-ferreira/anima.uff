@@ -51,6 +51,8 @@ output:
   html_document:
     theme: flatly
     highlight: textmate
+    includes:
+      in_header: [favicon.html]
     css:
       - style.css
     toc: true

@@ -26,9 +26,10 @@ htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")),
 
 <br>
 
-<center>
 
 ## **Coordenação** {#coordenacao}
+
+<center>
 
 <br>
 
@@ -44,9 +45,9 @@ MSc, DSc
 
 ## **Nutricionistas** {#nutricionistas}
 
-<br>
-
 <center>
+
+<br>
 
 <img src="imagens/ana-beatriz.png" width="200px">
 
@@ -81,4 +82,3 @@ MSc, DSc
 ## **Estagiários** {#estagiarios}
 
 <br>
-

@@ -130,7 +130,7 @@ O curso envolveu debates sobre a Nota Técnica do FNDE que orienta a prática de
 
 <center>
 
-<iframe src="https://drive.google.com/file/d/1X99bCK2my167l6sLbtxs6fTBkpQf5cfL/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1X99bCK2my167l6sLbtxs6fTBkpQf5cfL/preview" width="100%" allow="autoplay"></iframe>
 
 </center>
 
