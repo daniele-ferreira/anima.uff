@@ -3,13 +3,6 @@ title: ANIMA
 author:
   - name: Apoio Nutricional e Integrativo <br> à Maternidade
   
-geometry: "top=3cm,left=3cm,right=2cm,bottom=2cm"
-link-citations: yes
-always_allow_html: true
-documentclass: book
-papersize: a4
-csl: vancouver.csl
-
 output:
   html_document:
     toc: false
@@ -19,8 +12,6 @@ output:
       - ./CSS/main-color.css
       - ./CSS/narrow-margins.css
       - ./CSS/responsive.css
-
-bibliography: references.bib
 ---
 
 ```{r, echo = FALSE}
@@ -74,5 +65,73 @@ Desenvolver estudos acadêmicos relacionados à nutrição materno-infantil, com
 **5.	Monitoramento e Avaliação das Ações**
 
 Criar um sistema de acompanhamento contínuo para avaliar os resultados e impactos do projeto, tanto na comunidade atendida quanto na formação dos estudantes.
+
+<br>
+
+### Semana de Extensão da UFF
+
+<br>
+
+A Semana de Extensão da UFF é um evento anual que reúne projetos de extensão universitária de diversas áreas do conhecimento, promovendo a troca de experiências e a divulgação das ações desenvolvidas pela universidade em parceria com a comunidade. O projeto ANIMA participa ativamente desse evento, apresentando seus resultados e contribuições para a saúde materno-infantil e a formação acadêmica dos estudantes.
+
+<br>
+
+**29<sup>a </sup> SEMEXT**
+
+<br>
+
+Em 2024, o ANIMA recebeu o prêmio de destaque pela Faculdade de Nutrição, em reconhecimento ao seu impacto social e acadêmico, destacando-se como uma referência em extensão universitária na área da saúde.
+
+<br>
+
+<center>
+
+<img src="imagens/titulo-semext1.png" width="1000px">
+<br>
+<img src="imagens/titulo-semext2.png" width="1000px">
+
+</center>
+
+<br>
+
+**Evento Simplemente Mulher**
+
+Nos anos de 2023 e 2024, o ANIMA participou do evento Simplesmente Mulher em comemoração ao mês da mulher. O encontro promove uma reflexão inclusiva e abrangente sobre temas importantes, como saúde, bem-estar e qualidade de vida das mulheres, bem como a cidadania feminina e a equidade de gênero.
+
+<br>
+
+<center>
+
+<img src="imagens/simplesmente-mulher2.png" width="400px">
+
+<br>
+
+<img src="imagens/simplesmente-mulher1.png" width="300px">
+
+<br>
+
+<img src="imagens/simplesmente-mulher.png" width="300px">
+
+</center>
+
+<br>
+
+**Amamenta PNAE**
+
+<br>
+
+No dia 30 de outubro de 2024, a Faculdade de Nutrição da UFF sediou o curso Amamenta PNAE, uma atividade promovida pelo CECANE UFF e ANIMA, voltada para as nutricionistas do Programa Nacional de Alimentação Escolar (PNAE).
+
+O evento reuniu profissionais de diversos municípios do Rio de Janeiro: Niterói, Silva Jardim, Armação dos Búzios, Volta Redonda, Duque de Caxias, Engenheiro Paulo de Frontein, Petrópolis, Paraíba do Sul, Cantagalo e Maricá.
+
+O curso envolveu debates sobre a Nota Técnica do FNDE que orienta a prática de amamentação nas creches, as estratégias de apoio à amamentação no ambiente escolar e apresentou experiências da implementação da amamentação nas creches nos municípios de Petrópolis e São Paulo, que foi fundamental para estimular as nutricionistas a elaborarem um planejamento estratégico para promover a amamentação nas escolas de seus municípios.
+
+<br>
+
+<center>
+
+<iframe src="https://drive.google.com/file/d/1X99bCK2my167l6sLbtxs6fTBkpQf5cfL/preview" width="640" height="480" allow="autoplay"></iframe>
+
+</center>
 
 

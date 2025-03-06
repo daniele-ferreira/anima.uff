@@ -3,13 +3,6 @@ title: ANIMA
 author:
   - name: Apoio Nutricional e Integrativo <br> à Maternidade
   
-geometry: "top=3cm,left=3cm,right=2cm,bottom=2cm"
-link-citations: yes
-always_allow_html: true
-documentclass: book
-papersize: a4
-csl: vancouver.csl
-
 output:
   html_document:
     toc: false
@@ -19,8 +12,6 @@ output:
       - ./CSS/main-color.css
       - ./CSS/narrow-margins.css
       - ./CSS/responsive.css
-
-bibliography: references.bib
 ---
 
 ```{r, echo = FALSE}
