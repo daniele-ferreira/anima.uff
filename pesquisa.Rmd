@@ -30,6 +30,10 @@ Ao promover a interação entre o conhecimento científico e o saber popular nas
 
 <br>
 
+O projeto desenvolve pesquisas baseadas em duas linhas de investigação que estão alinhadas com as linhas de pesquisa do Programa de Pós-Graduação em Ciências da Nutrição (PPGCN) da Universidade Federal Fluminense. Essas linhas de pesquisa abordam temas relacionados à avaliação nutricional de gestantes de alto risco e à investigação e apoio ao aleitamento materno.
+
+<br>
+
 ## **Linhas de Pesquisa**
 
 <br>
@@ -83,6 +87,26 @@ Essa linha de pesquisa busca compreender e aprimorar a saúde materno-fetal em s
 
 <br>
 
+#### **Publicações**
+
+<br>
+
+[Qualidade da dieta de gestantes adolescentes assistidas na Rede Básica de Saúde](https://periodicos.unicesumar.edu.br/index.php/saudpesq/article/view/8015/6364)
+
+<br>
+
+#### **Dissertações**
+
+<br>
+
+[Insegurança alimentar, consumo alimentar e adequação nutricional em gestantes de risco atendidas em um hospital universitário ](https://app.uff.br/riuff/handle/1/31114)
+
+<br>
+
+#### **Produtos técnicos**
+
+<br>
+
 Como produto técnico das pesquisas desenvolvidas nessa linha, foi elaborado um aplicativo para a avaliação do consumo alimentar e  do nível de atividade física de gestantes. Esse aplicativo pode ser acessado gratuitamente no link abaixo:
 
 <br>
@@ -114,4 +138,12 @@ Essa linha de pesquisa tem como foco central a promoção, proteção e apoio à
 <br>
 
 **Políticas e Iniciativas Governamentais**: Estudo das políticas públicas existentes que visam apoiar a amamentação, como o Programa Nacional de Alimentação Escolar (PNAE).
+
+<br>
+
+#### **Dissertações**
+
+<br>
+
+[Fatores condicionantes da amamentação sob a ótica de puérperas de maternidade de alto risco ](https://app.uff.br/riuff/handle/1/27056)
 

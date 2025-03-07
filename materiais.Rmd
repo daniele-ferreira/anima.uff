@@ -36,10 +36,40 @@ htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")),
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
 
-```{r ABM, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', results = 'asis', fig.pos='H'}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', results = 'asis', fig.pos='H'}
 data <-
   readxl::read_excel("xlsx/protocolos-abm.xlsx",
-             sheet = "ABM",
+             sheet = "ABM Protocols",
+             col_types = c("text"))
+
+Link <- matrix(NA, nrow = dim(data)[1])
+colnames(Link) <- "Link"
+# add hyperlinks
+for (i in 1:dim(data)[1]) {
+  if (!is.na(data[i, 2])) {
+    Link[i] <-
+      paste0('<a href="',
+             data[i, ncol(data)],
+             '" target="_blank"',
+             '>',
+             # fontawesome icon
+             fontawesome::fa("up-right-from-square"),
+             '</a>')
+  }
+}
+data <- cbind(data[,-ncol(data)], Link)
+
+# print tables
+source("Scripts/table-with-buttons.R", local = knitr::knit_global())
+create_dt(data, title = "Protocolos ABM", pageLength = 5)
+```
+
+<br>
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', results = 'asis', fig.pos='H'}
+data <-
+  readxl::read_excel("xlsx/protocolos-abm.xlsx",
+             sheet = "ABM Position Statements",
              col_types = c("text"))
 
 Link <- matrix(NA, nrow = dim(data)[1])
@@ -67,6 +97,8 @@ create_dt(data, title = "Protocolos ABM", pageLength = 5)
 <br>
 
 Fonte: [Academy of Breastfeeding Medicine (ABM)](https://www.bfmed.org/)
+
+
 
 #### Ministério da Saúde (MS) 
 
