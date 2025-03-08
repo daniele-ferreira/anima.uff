@@ -91,14 +91,12 @@ data <- cbind(data[,-ncol(data)], Link)
 
 # print tables
 source("Scripts/table-with-buttons.R", local = knitr::knit_global())
-create_dt(data, title = "Protocolos ABM", pageLength = 5)
+create_dt(data, title = "Position Statements ABM", pageLength = 5)
 ```
 
 <br>
 
 Fonte: [Academy of Breastfeeding Medicine (ABM)](https://www.bfmed.org/)
-
-
 
 #### Ministério da Saúde (MS) 
 

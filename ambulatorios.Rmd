@@ -52,84 +52,6 @@ Oferecemos **consulta gratuita** em quatro ambulatórios:
 
 <br>
 
-### **Nutrição para Gestantes e Lactantes**
-
-<br>
-
-<center>
-
-**Nutricionista responsável**
-
-<img src="imagens/ana-beatriz.png" width="150px">
-
-**Professora Ana Beatriz Franco Sena Siqueira**
-
-MSc, DSc
-
-<br>
-
-<button type="button" class="btn btn-primary">[Marque sua consulta](https://minhaagendavirtual.com.br/agendamentos/incluir/animauff/33006475A)</button>
-
-</center>
-
-<br>
-
-Neste ambulatório as consultas são cuidadosamente estruturadas para atender às necessidades específicas da mulher. Trabalhamos com a técnica do aconselhamento nutricional, que envolve não apenas a transmissão de informações, mas também a escuta ativa, compreensão das particularidades individuais e suporte contínuo.
-
-<br>
-
-A dinâmica da consulta ocorre da seguinte forma:
-
-<br>
-
-**1. Avaliação Inicial e Anamnese**
-
-<br>
-
-Essa avaliação permite personalizar as orientações e identificar áreas que necessitam de intervenção. São considerados os seguintes aspectos:
-
-**Histórico Alimentar**: identificação dos padrões alimentares, preferências, aversões e possíveis deficiências nutricionais.
-
-**Histórico Clínico e Obstétrico**: consideração das condições de saúde preexistentes, uso de medicamentos e suplementação.
-
-**Estilo de Vida**: avaliação do nível de atividade física, hábitos de sono e fatores estressores.
-
-<br>
-
-**2. Avaliação nutricional:**
-
-<br>
-
-**Peso e Altura**: cálculo do Índice de Massa Corporal (IMC) e acompanahmento do ganho de peso durante a gestação.
-**Exames Bioquímicos**: avaliação dos níveis de vitaminas, minerais e outros nutrientes essenciais; avaliação da glicemia e perfil lipídico, entre outros exames relacionados com o risco gestacional.
-
-<br>
-
-**3. Plano Alimentar Personalizado:**
-
-<br>
-
-Com base na avaliação inicial, o profissional irá calcular as necessidades energéticas e nutricionais adaptadas às necessidades da gestante ou lactante, baseando-se na programação de ganho de peso gestacional adequado ou perda de peso adequada durante a lactação, seguindo as orientações do Guia Alimentar para a População Brasileira e dos 10 passos para uma alimentação saudável na gestação e lactação. O plano alimentar irá considerar as preferências alimentares, restrições e possíveis intolerâncias. Além disso, as gestantes e lactantes recebem orientações sobre práticas seguras de manipulação e preparo dos alimentos para prevenir infecções alimentares. 
-
-<br> 
-
-O acompanhamento é realizado mensalmente, com o objetivo de monitorar o ganho de peso, a evolução do estado nutricional e a adesão ao plano alimentar. Durante as consultas, são abordados temas como a importância da hidratação, do sono, dos bons hábitos intestinais, a prática de atividade física adequada, e a suplementação de micronutrientes. As queixas comuns na gestação como náuseas e vômitos, azia, constipação intestinal, assim como as co-morbidades (diabetes, hipertensão, pré-eclâmpsia, hipotireoidismo, hipertireoidismo, anemia, etc.) são manejadas a partir de protocolos específicos baseados em evidências científicas atualizadas.
-
-<br>
-
-Todos os materiais educativos que reforçam as orientações fornecidas durante a consulta, assim como o plano alimentar individualizado são encaminhados por meio do aplicativo WebDiet® em até uma semana após a data da consulta.
-
-<br>
-
-Nas consultas de acompanhamento, verificamos se as orientações estão sendo seguidas e identificamos as barreiras; realizamos modificações conforme necessário, considerando mudanças no estado de saúde ou preferências alimentares; e fornecemos suporte contínuo a fim de manter a motivação e oferecer encorajamento para a adoção de hábitos saudáveis.
-
-<br>
-
-<center>
-<button type="button" class="btn btn-primary">[Marque sua consulta](https://minhaagendavirtual.com.br/agendamentos/incluir/animauff/33006475A)</button>
-</center>
-
-
 ### **Consultoria em Amamentação**
 
 <br>
@@ -209,11 +131,89 @@ Como técnicas complementares ao manejo da amamentação, trabalhamos com a lase
 
 *Observação*: Não fornecemos diagnóstico clínico e nem prescrevemos medicamentos por ser competência exclusiva do profissional médico. Avaliamos as condições que influenciam na amamentação, realizamos e orientamos o manejo dessas condições no âmbito do escopo de atuação dos consultores de amamentação, fazemos os registros da avaliação e encaminhamos para o profissional competente (médico, fonoaudiólogo, dentista, fisioterapeuta, psicólogo, entre outros) para um cuidado integral e multiprofissional.
 
-br>
+<br>
 
 <center>
 <button type="button" class="btn btn-primary">[Marque sua consulta](https://minhaagendavirtual.com.br/agendamentos/incluir/animauff/25326475A)</button>
 </center>
+
+### **Nutrição para Gestantes e Lactantes**
+
+<br>
+
+<center>
+
+**Nutricionista responsável**
+
+<img src="imagens/ana-beatriz.png" width="150px">
+
+**Professora Ana Beatriz Franco Sena Siqueira**
+
+MSc, DSc
+
+<br>
+
+<button type="button" class="btn btn-primary">[Marque sua consulta](https://minhaagendavirtual.com.br/agendamentos/incluir/animauff/33006475A)</button>
+
+</center>
+
+<br>
+
+Neste ambulatório as consultas são cuidadosamente estruturadas para atender às necessidades específicas da mulher. Trabalhamos com a técnica do aconselhamento nutricional, que envolve não apenas a transmissão de informações, mas também a escuta ativa, compreensão das particularidades individuais e suporte contínuo.
+
+<br>
+
+A dinâmica da consulta ocorre da seguinte forma:
+
+<br>
+
+**1. Avaliação Inicial e Anamnese**
+
+<br>
+
+Essa avaliação permite personalizar as orientações e identificar áreas que necessitam de intervenção. São considerados os seguintes aspectos:
+
+**Histórico Alimentar**: identificação dos padrões alimentares, preferências, aversões e possíveis deficiências nutricionais.
+
+**Histórico Clínico e Obstétrico**: consideração das condições de saúde preexistentes, uso de medicamentos e suplementação.
+
+**Estilo de Vida**: avaliação do nível de atividade física, hábitos de sono e fatores estressores.
+
+<br>
+
+**2. Avaliação nutricional:**
+
+<br>
+
+**Peso e Altura**: cálculo do Índice de Massa Corporal (IMC) e acompanahmento do ganho de peso durante a gestação.
+**Exames Bioquímicos**: avaliação dos níveis de vitaminas, minerais e outros nutrientes essenciais; avaliação da glicemia e perfil lipídico, entre outros exames relacionados com o risco gestacional.
+
+<br>
+
+**3. Plano Alimentar Personalizado:**
+
+<br>
+
+Com base na avaliação inicial, o profissional irá calcular as necessidades energéticas e nutricionais adaptadas às necessidades da gestante ou lactante, baseando-se na programação de ganho de peso gestacional adequado ou perda de peso adequada durante a lactação, seguindo as orientações do Guia Alimentar para a População Brasileira e dos 10 passos para uma alimentação saudável na gestação e lactação. O plano alimentar irá considerar as preferências alimentares, restrições e possíveis intolerâncias. Além disso, as gestantes e lactantes recebem orientações sobre práticas seguras de manipulação e preparo dos alimentos para prevenir infecções alimentares. 
+
+<br> 
+
+O acompanhamento é realizado mensalmente, com o objetivo de monitorar o ganho de peso, a evolução do estado nutricional e a adesão ao plano alimentar. Durante as consultas, são abordados temas como a importância da hidratação, do sono, dos bons hábitos intestinais, a prática de atividade física adequada, e a suplementação de micronutrientes. As queixas comuns na gestação como náuseas e vômitos, azia, constipação intestinal, assim como as co-morbidades (diabetes, hipertensão, pré-eclâmpsia, hipotireoidismo, hipertireoidismo, anemia, etc.) são manejadas a partir de protocolos específicos baseados em evidências científicas atualizadas.
+
+<br>
+
+Todos os materiais educativos que reforçam as orientações fornecidas durante a consulta, assim como o plano alimentar individualizado são encaminhados por meio do aplicativo WebDiet® em até uma semana após a data da consulta.
+
+<br>
+
+Nas consultas de acompanhamento, verificamos se as orientações estão sendo seguidas e identificamos as barreiras; realizamos modificações conforme necessário, considerando mudanças no estado de saúde ou preferências alimentares; e fornecemos suporte contínuo a fim de manter a motivação e oferecer encorajamento para a adoção de hábitos saudáveis.
+
+<br>
+
+<center>
+<button type="button" class="btn btn-primary">[Marque sua consulta](https://minhaagendavirtual.com.br/agendamentos/incluir/animauff/33006475A)</button>
+</center>
+
 
 ### **Introdução Alimentar**
 
@@ -295,7 +295,7 @@ Após a consulta inicial, é estabelecido um plano de acompanhamento regular par
 
 <img src="imagens/nathalia-ferreira.png" width="150px">
 
-**Professora Nathalia Ferreira Sntunes de Almeida**
+**Professora Nathalia Ferreira Antunes de Almeida**
 
 MSc, DSc
 
