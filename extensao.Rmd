@@ -26,11 +26,11 @@ htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")),
 
 <br>
 
-Dentro da perspectiva das ações de extensão, a proposta deste projeto valoriza a interação dialógica por meio da troca de saberes entre o conhecimento científico e popular a partir da escuta qualificada das questões relacionadas à saúde da mãe e do bebê e da proposição de ações promotoras da alimentação saudável a partir da realidade econômica, social e cultural das famílias atendidas, possibilitando assim, um impacto social baseado nos interesses e necessidades da população.
+Dentro da perspectiva da extensão universitária, este projeto está pautado na interação dialógica entre universidade e sociedade e busca a produção compartilhada de conhecimentos - acadêmico e a vivência comunitária - tendo como princípio a troca de saberes por meio do acolhimento, empatia, escuta ativa e qualificada. O público-alvo são mulheres, pais e bebês que têm em comum, a necessidade/interesse de um cuidado nutricional personalizado. As proposições de ações para intervir nas questões nutricionais e alimentares demandadas, levam em conta a realidade econômica, social e cultural dessas pessoas.
 
 <br>
 
-Paralelamente, de modo a adquirir maior efetividade, as ações estão vinculadas ao processo de formação dos alunos de graduação em nutrição e de geração de conhecimento, por meio do desenvolvimento de pesquisas no âmbito da graduação e pós-graduação. Tal envolvimento visa possibilitar um maior impacto na formação dos estudantes pela ampliação da visão teórica que adquirem em sala de aula, a partir do contato direto com as questões sociais apresentadas pelas famílias, reafirmando também, o compromisso ético e solidário da Universidade Pública.
+Este projeto converge com o ensino e a pesquisa, visando não somente a formação técnica de excelência, mas também humanista e crítica dos estudantes, seja de graduação e de pós-graduação. Ao articular a teoria com as questões apresentadas pelas famílias – que geralmente são de natureza social - espera-se que conhecimento do estudante se amplie. Essa interseção, por sua vez, reafirma o compromisso ético e solidário da Universidade Pública.
 
 <br>
 
