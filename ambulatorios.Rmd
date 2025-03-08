@@ -106,6 +106,18 @@ Essas ações visam capacitar a gestante, aumentando sua confiança e reduzindo 
 
 <br>
 
+<center>
+
+<img src="imagens/consultoria-gestante.png" width="300px">
+
+<br>
+
+<img src="imagens/consultoria-gestante1.png" width="300px">
+
+<br>
+
+</center>
+
 **Consultoria durante a lactação**
 
 <br>
@@ -134,6 +146,19 @@ Como técnicas complementares ao manejo da amamentação, trabalhamos com a lase
 <br>
 
 <center>
+
+<img src="imagens/consultoria-lactante.png" width="300px">
+
+<br>
+
+<img src="imagens/consultoria-lactante1.png" width="300px">
+
+<br>
+
+<img src="imagens/laserterapia.png" width="300px">
+
+<br>
+
 <button type="button" class="btn btn-primary">[Marque sua consulta](https://minhaagendavirtual.com.br/agendamentos/incluir/animauff/25326475A)</button>
 </center>
 
