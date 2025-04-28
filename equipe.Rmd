@@ -14,10 +14,30 @@ output:
       - ./CSS/responsive.css
 ---
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, }
 htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")), 
                alt = 'anima', 
                style = 'position:absolute; top:50px; right:0px; padding:10px; width:150px;')
+```
+
+<br>
+
+<!--install and/or load all R packages-->
+```{r setup, include = FALSE, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', out.width = "100%", results = "hide"}
+library("dplyr")
+library("htmltools")
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = 'center',
+  results = "asis",
+  include = TRUE,
+  out.width = "100%",
+  knitr.kable.NA = '',
+  knitr.table.format = "html"
+)
 ```
 
 <br>
@@ -26,84 +46,186 @@ htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")),
 
 <br>
 
+```{r equipe}
+equipe <- data.frame(
+  nome = c(
+    "Professora Daniele Mendonça Ferreira",
+    "Professora Ana Beatriz Franco Sena Siqueira",
+    "Professora Enilce de Oliveira Fonseca Sally",
+    "Professora Nathalia Ferreira Antunes de Almeida",
+    "Letícia Monsori Ferreira Andrade",
+    "Gabriela de Queiroz Pereira Lopes",
+    "Julyana Oliveira Albino"
+  ),
+  imagem = c(
+    "daniele-ferreira.png",
+    "ana-beatriz.png",
+    "enilce-sally.png",
+    "nathalia-ferreira.png",
+    "leticia-ferreira.png",
+    "gabriela-lopes.png",
+    "juliana-oliveira.png"
+  ),
+  pasta = c(
+    "coordenacao",
+    "nutricionistas",
+    "nutricionistas",
+    "nutricionistas",
+    "voluntarios",
+    "voluntarios",
+    "estagiarios"
+  ),
+  cargo = c(
+    "Coordenação",
+    "Nutricionista",
+    "Nutricionista",
+    "Nutricionista",
+    "Voluntário",
+    "Voluntário",
+    "Estagiário"
+  ),
+  email = c(
+    "daniele_ferreira@id.uff.br",
+    "ab_franco@id.uff.br",
+    "esally@id.uff.br",
+    "nathaliaalmeida@unirio.br",
+    "leticiamonsore@id.uff.br",
+    "gabrielalnutri@gmail.com",
+    "julyanaoliveira@id.uff.br"
+  ),
+  lattes = c(
+    "http://lattes.cnpq.br/6222513276436258",
+    "http://lattes.cnpq.br/5162705745559588",
+    "http://lattes.cnpq.br/9025993792349254",
+    "http://lattes.cnpq.br/8374367290779329",
+    "http://lattes.cnpq.br/4289774838251974",
+    "http://lattes.cnpq.br/1247868836934670",
+    "http://lattes.cnpq.br/0634824597021092"
+  ),
+  stringsAsFactors = FALSE
+)
+```
+
+```{css}
+.item img {
+  width:25%
+}
+```
 
 ## **Coordenação** {#coordenacao}
 
-<center>
+```{r galeria-coordenacao, out.width="50%"}
+# filter Coordenação
+equipe.temp <- equipe %>%
+  dplyr::filter(cargo == "Coordenação")
+
+# Initialize carousel
+carousel <- bsplus::bs_carousel(id = unique(equipe.temp$pasta),
+                                use_indicators = TRUE,
+                                use_controls = FALSE) %>% 
+  bsplus::bs_set_data(interval = 3000)
+
+# Iterate and append slides to the carousel
+for (i in seq_len(nrow(equipe.temp))) {
+  membro <- equipe.temp[i, ]
+  img_path <- file.path("imagens", "equipe", membro$pasta, membro$imagem)
+  
+  caption <- bsplus::bs_carousel_caption(
+    title = htmltools::HTML(paste0(
+      membro$nome
+    )),
+    body = htmltools::HTML(paste0(
+      "<a href='mailto:", membro$email, "'>E-mail</a>",
+      " - ",
+      "<a href='", membro$lattes, "' target='_blank'>Lattes</a>"
+    ))
+  )
+  
+  slide <- bsplus::bs_carousel_image(src = img_path)
+  carousel <- bsplus::bs_append(carousel, content = slide, caption = caption)
+}
+
+# Output carousel
+carousel
+```
 
 <br>
-
-<img src="imagens/daniele-ferreira.png" width="200px">
-
-**Professora Daniele Mendonça Ferreira**
-
-MSc, DSc
-
-[Email](mailto:daniele_ferreira@id.uff.br) | [Currículo Lattes](http://lattes.cnpq.br/6222513276436258)
-
-</center>
 
 ## **Nutricionistas** {#nutricionistas}
 
-<center>
+```{r galeria-nutricionista, out.width="50%"}
+# filter Coordenação
+equipe.temp <- equipe %>%
+  dplyr::filter(cargo == "Nutricionista")
+
+# Initialize carousel
+carousel <- bsplus::bs_carousel(id = unique(equipe.temp$pasta),
+                                use_indicators = TRUE,
+                                use_controls = FALSE) %>% 
+  bsplus::bs_set_data(interval = 3000)
+
+# Iterate and append slides to the carousel
+for (i in seq_len(nrow(equipe.temp))) {
+  membro <- equipe.temp[i, ]
+  img_path <- file.path("imagens", "equipe", membro$pasta, membro$imagem)
+  
+  caption <- bsplus::bs_carousel_caption(
+    title = htmltools::HTML(paste0(
+      membro$nome
+    )),
+    body = htmltools::HTML(paste0(
+      "<a href='mailto:", membro$email, "'>E-mail</a>",
+      " - ",
+      "<a href='", membro$lattes, "' target='_blank'>Lattes</a>"
+    ))
+  )
+  
+  slide <- bsplus::bs_carousel_image(src = img_path)
+  carousel <- bsplus::bs_append(carousel, content = slide, caption = caption)
+}
+
+# Output carousel
+carousel
+```
 
 <br>
-
-<img src="imagens/ana-beatriz.png" width="200px">
-
-**Professora Ana Beatriz Franco Sena Siqueira**
-
-MSc, DSc
-
-[Email](mailto:ab_franco@id.uff.br) | [Currículo Lattes](http://lattes.cnpq.br/6222513276436258)
-
-<br>
-
-<img src="imagens/enilce-sally.png" width="200px">
-
-**Professora Enilce de Oliveira Fonseca Sally**
-
-MSc, DSc
-
-[Email](mailto:esally@id.uff.br) | [Currículo Lattes](http://lattes.cnpq.br/9025993792349254)
-
-<br>
-
-<img src="imagens/nathalia-ferreira.png" width="200px">
-
-**Professora Nathalia Ferreira Antunes de Almeida**
-
-MSc, DSc
-
-[Email](mailto:nathaliaalmeida@unirio.br) | [Currículo Lattes](http://lattes.cnpq.br/8374367290779329)
-
-<br>
-
-</center>
 
 ## **Voluntários** {#voluntários}
 
-<br>
+```{r galeria-volutarios, out.width="50%"}
+# filter Coordenação
+equipe.temp <- equipe %>%
+  dplyr::filter(cargo == "Voluntário")
 
-<center>
+# Initialize carousel
+carousel <- bsplus::bs_carousel(id = unique(equipe.temp$pasta),
+                                use_indicators = TRUE,
+                                use_controls = FALSE) %>% 
+  bsplus::bs_set_data(interval = 3000)
 
-<img src="imagens/leticia-ferreira.png" width="200px">
+# Iterate and append slides to the carousel
+for (i in seq_len(nrow(equipe.temp))) {
+  membro <- equipe.temp[i, ]
+  img_path <- file.path("imagens", "equipe", membro$pasta, membro$imagem)
+  
+  caption <- bsplus::bs_carousel_caption(
+    title = htmltools::HTML(paste0(
+      membro$nome
+    )),
+    body = htmltools::HTML(paste0(
+      "<a href='mailto:", membro$email, "'>E-mail</a>",
+      " - ",
+      "<a href='", membro$lattes, "' target='_blank'>Lattes</a>"
+    ))
+  )
+  
+  slide <- bsplus::bs_carousel_image(src = img_path)
+  carousel <- bsplus::bs_append(carousel, content = slide, caption = caption)
+}
 
-**Letícia Monsori Ferreira Andrade**
-
-Aluna de mestrado do PPGCN (UFF)
-
-[Email](mailto:leticiamonsore@id.uff.br) | [Currículo Lattes](http://lattes.cnpq.br/4289774838251974)
-
-<br>
-
-<img src="imagens/gabi-lopes.png" width="200px">
-
-**Gabriela de Queiroz Pereira Lopes**
-
-Aluna de mestrado do PPGCN (UFF)
-
-[Email](mailto:gabrielalnutri@gmail.com) | [Currículo Lattes](http://lattes.cnpq.br/1247868836934670)
+# Output carousel
+carousel
+```
 
 <br>
 
@@ -111,12 +233,39 @@ Aluna de mestrado do PPGCN (UFF)
 
 <br>
 
-<center>
+```{r galeria-estagiarios, out.width="50%"}
+# filter Coordenação
+equipe.temp <- equipe %>%
+  dplyr::filter(cargo == "Estagiário")
 
-<img src="imagens/juliana-oliveira.png" width="200px">
+# Initialize carousel
+carousel <- bsplus::bs_carousel(id = unique(equipe.temp$pasta),
+                                use_indicators = TRUE,
+                                use_controls = FALSE) %>% 
+  bsplus::bs_set_data(interval = 3000)
 
-**Julyana Oliveira Albino**
+# Iterate and append slides to the carousel
+for (i in seq_len(nrow(equipe.temp))) {
+  membro <- equipe.temp[i, ]
+  img_path <- file.path("imagens", "equipe", membro$pasta, membro$imagem)
+  
+  caption <- bsplus::bs_carousel_caption(
+    title = htmltools::HTML(paste0(
+      membro$nome
+    )),
+    body = htmltools::HTML(paste0(
+      "<a href='mailto:", membro$email, "'>E-mail</a>",
+      " - ",
+      "<a href='", membro$lattes, "' target='_blank'>Lattes</a>"
+    ))
+  )
+  
+  slide <- bsplus::bs_carousel_image(src = img_path)
+  carousel <- bsplus::bs_append(carousel, content = slide, caption = caption)
+}
 
-Aluna de graduação em Nutrição (UFF)
+# Output carousel
+carousel
+```
 
-[Email](mailto:julyanaoliveira@id.uff.br) | [Currículo Lattes](http://lattes.cnpq.br/0634824597021092)
+<br>
