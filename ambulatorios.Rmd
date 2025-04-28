@@ -22,6 +22,26 @@ htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")),
 
 <br>
 
+<!--install and/or load all R packages-->
+```{r setup, include = FALSE, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', out.width = "100%", results = "hide"}
+library("dplyr")
+library("htmltools")
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = 'center',
+  results = "asis",
+  include = TRUE,
+  out.width = "100%",
+  knitr.kable.NA = '',
+  knitr.table.format = "html"
+)
+```
+
+<br>
+
 ## **Ambulatórios** {.tabset .tabset-pills}
 
 <br>
@@ -106,17 +126,29 @@ Essas ações visam capacitar a gestante, aumentando sua confiança e reduzindo 
 
 <br>
 
-<center>
+```{r galeria-consultoria}
+library("dplyr")
 
-<img src="imagens/ambulatorios/consultoria/gestante1.png" width="300px">
+img_path <- list.files(path = file.path("imagens", "ambulatorios", "consultoria"), full.names = TRUE, recursive = FALSE)
+
+# Initialize carousel
+carousel <- bsplus::bs_carousel(id = "consultoria",
+                                use_indicators = TRUE,
+                                use_controls = FALSE) %>% 
+  bsplus::bs_set_data(interval = 3000)
+
+# Iterate and append slides to the carousel
+for (i in 1:length(img_path)) {
+  img <- img_path[i]
+  slide <- bsplus::bs_carousel_image(src = img)
+  carousel <- bsplus::bs_append(carousel, content = slide)
+}
+
+# Output carousel
+carousel
+```
 
 <br>
-
-<img src="imagens/ambulatorios/consultoria/gestante2.png" width="300px">
-
-<br>
-
-</center>
 
 **Consultoria durante a lactação**
 
@@ -145,17 +177,27 @@ Como técnicas complementares ao manejo da amamentação, trabalhamos com a lase
 
 <br>
 
-<center>
+```{r galeria-lactantes}
+library("dplyr")
 
-<img src="imagens/ambulatorios/lactacao/lactante1.png" width="300px">
+img_path <- list.files(path = file.path("imagens", "ambulatorios", "lactantes"), full.names = TRUE, recursive = FALSE)
 
-<br>
+# Initialize carousel
+carousel <- bsplus::bs_carousel(id = "lactantes",
+                                use_indicators = TRUE,
+                                use_controls = FALSE) %>% 
+  bsplus::bs_set_data(interval = 3000)
 
-<img src="imagens/ambulatorios/lactacao/lactante2.png" width="300px">
+# Iterate and append slides to the carousel
+for (i in 1:length(img_path)) {
+  img <- img_path[i]
+  slide <- bsplus::bs_carousel_image(src = img)
+  carousel <- bsplus::bs_append(carousel, content = slide)
+}
 
-<br>
-
-<img src="imagens/ambulatorios/lactacao/laserterapia1.png" width="300px">
+# Output carousel
+carousel
+```
 
 <br>
 

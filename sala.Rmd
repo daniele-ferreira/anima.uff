@@ -22,15 +22,51 @@ htmltools::img(src = knitr::image_uri(file.path("imagens/anima.png")),
 
 <br>
 
+<!--install and/or load all R packages-->
+```{r setup, include = FALSE, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', out.width = "100%", results = "hide"}
+library("dplyr")
+library("htmltools")
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = 'center',
+  results = "asis",
+  include = TRUE,
+  out.width = "100%",
+  knitr.kable.NA = '',
+  knitr.table.format = "html"
+)
+```
+
+<br>
+
 ## **Sala de Apoio à Amamentação**
 
 <br>
 
-<center>
+```{r galeria-sala}
+library("dplyr")
 
-<img src="imagens/sala-amamentacao.png" width="300px">
+img_path <- list.files(path = file.path("imagens", "sala"), full.names = TRUE, recursive = FALSE)
 
-</center>
+# Initialize carousel
+carousel <- bsplus::bs_carousel(id = "sala",
+                                use_indicators = TRUE,
+                                use_controls = FALSE) %>% 
+  bsplus::bs_set_data(interval = 3000)
+
+# Iterate and append slides to the carousel
+for (i in 1:length(img_path)) {
+  img <- img_path[i]
+  slide <- bsplus::bs_carousel_image(src = img)
+  carousel <- bsplus::bs_append(carousel, content = slide)
+}
+
+# Output carousel
+carousel
+```
 
 <br>
     
@@ -51,18 +87,6 @@ Na sala também ocorrem atendimentos de consultoria em amamentação e apoio às
 <br> 
 
 Em 2023, a sala recebeu uma certificação do Ministério da Saúde de reconhecimento como um local que promove, protege e apoia o aleitamento materno para mulheres trabalhadoras.
-
-<br>
-
-<center>
-
-<img src="imagens/saa-1.jpg" width="300px">
-
-<br>
-    
-<img src="imagens/saa-2.jpg" width="300px">
-   
-</center>
 
 <br>
 

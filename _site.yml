@@ -47,6 +47,8 @@ navbar:
       icon: "fa-whatsapp fa-lg"
       href: [https://wa.me/5521973020566]
 
+href: https://daniele-ferreira.github.io/anima.uff/index.html
+
 output:
   html_document:
     theme: flatly
